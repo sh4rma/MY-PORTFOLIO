@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <style>
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+
+label.logo {
+    color: white;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav {
+    background: black;
+    width: 100%;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 6px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+}
+
+a.active, a:hover {
+    background: grey;
+    transition: .5s;
+}
+
+.detel {
+    position: relative;
+    top: 220px;
+    left: 150px;
+    width: 500px;
+
+}
+
+.detel h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+span {
+    color: rgb(224, 152, 9);
+    font-family: cursive;
+}
+
+.detel p {
+    color: white;
+    line-height: 22px;
+    font-family: 'Gill Sans',sans-serif;
+}
+
+.detel a {
+    background: white;
+    color: black;
+    padding: 10px 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 30px 0;
+    display: inline-block;
+
+}
+
+.image-container {
+    height: 60%;
+    position: absolute;
+    top: 210px;
+    right: 400px;
+    filter: drop-shadow(1px 5px 25px rgb(174, 17, 205));
+}
+
+.image-container img {
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.image-container .main-img{
+    height: 600px;
+    position: absolute;
+}
+
+.image-container:hover .back-img{
+    bottom: 40px;
+}
+
+.image-container:hover .main-img{
+    left: 54px;
+}
+
+.social-link a{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    position: relative;
+    top: 250px;
+    left: 140px;
+    margin: 0 8px;
+}
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </div>
+</head>
+
+<body>
+    <nav>
+        <label class="logo"><i class="fa-solid fa-square-h"></i><i class="fa-brands fa-squarespace"></i></label>
+        <ul>
+            <li><a class="active"><i class="fa-regular fa-face-smile"></i></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="https://github.com/sh4rma?tab=repositories">Projects</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="contactme.html" >Hire me<i class="fa-regular fa-envelope"></i></a></li>
+        </ul>
+    </nav>
+
+
+    <div class="detel">
+        <h1>This is , <span>Hritik Sharma</span></h1>
+        <p><em>This is my officially portfolio website
+                <br>And i am showing to my Detail and work , web development</em>
+        </p>
+        <a href="HRITIK SHARMA - RESUME.pdf">Download My CV</a>
+    </div>
+
+    <div class="image-container">
+        <img src="blob.png" alt="" class="back-img">
+        <img src="main.png" alt="" class="main-img">
+    </div>
+
+    <div class="social-link">
+        <a href="https://www.facebook.com/arj.sharma.58"  >
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://www.instagram.com/_sharma_hritik20/" >
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://www.youtube.com/@sharmahritik22" >
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/hritik-sharma-114a9b291/" >
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </div>
+</body>
+
+</html>
